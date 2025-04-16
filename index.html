@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMDABIDA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+<!--header site -->
+<header>
+    <div class="logo"><span>HIMA </span>BIDA</div>
+    <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about"  >About</a></li>
+        <li><a href="#structure">Structure</a></li>
+        <li><a href="#voting">Voting</a></li>
+        <li><a href="#events"  >Events</a></li>
+        <li><a href="#blog">Blog</a></li>
+    </ul>
+<div class="box">
+    <input type="text" placeholder="Search...">
+    <a href="#"><i class='bx bx-search-alt-2'></i> </a>
+</div>
+    
+<div class="header-icons">
+    <a href="#" id="user-icon"><img src="user.png" alt="User"></a>
+    
+    <!-- Dropdown Profile -->
+    <div id="profile-menu" class="hidden">
+        <div class="profile-info">
+            <img id="profile-pic" src="default.jpg" alt="Foto Profil">
+            <p id="profile-name">Nama</p>
+        </div>
+        <ul>
+            <li><a href="#" id="edit-profile">Edit Profile</a></li>
+            <li><a href="#">Help & Support</a></li>
+            <li><a href="#" id="logout">Logout</a></li>
+        </ul>
+    </div>
+</div>
+        <div class="bx bx-menu" id="menu-icon"> </div>
+</header>
+
+
+
+<!-- home section ------------------------- ------------------------------------------>
+<section id="home" class="home">
+    <div class="home-content">
+        <h1>Himpunan Mahasiswa Bisnis Digital</h1>
+        <div class="change-text">
+            <h3>We Are</h3>
+              <h3>
+                 <span class="word"> Creatingy &nbsp; impact </span>
+                 <span class="word">Building&nbsp;leaders</span>
+                 <span class="word"> Empowering &nbsp; students </span>
+              </h3>
+             
+        </div>
+        <p class="text-justify">Join a dynamic community where passion meets purpose. Whether you're here to grow, lead, or connect, we provide the platform to shape your journey.   
+        <span> Be part of something bigger, be the change. </span> </p>
+          
+
+             <div class ="btn-box">
+                <a href="https://canva.com" class="btn">   <img src="playstore.jpg" height=50px alt=""> </a>
+                
+            </div>
+
+             <div class="social-icons">
+                <a href="https://www.instagram.com/himabisnisdigital_upb?igsh=OXZ3MHpvdno1eXpp"><i class='bx bxl-instagram'></i></a>
+                <a href="https://m.youtube.com/@bisnisdigitalupbofficial"><i class='bx bxl-youtube'></i></a>
+                <a href="#"><i class='bx bxl-gmail' ></i></a>
+                <a href="https://www.tiktok.com/@himabidaupb?_t="><i class='bx bxl-tiktok' ></i></a>
+            </div>  
+        </div>  
+            <div class="home-img">
+                <div class="img-box">
+                    <img src="hero-img.png">
+                </div>  
+
+       
+     </section>
+     <!--login-->
+     <div class="account-form">
+        
+        <div id="close-form" class='bx bx-x' > 
+           
+        </div>
+       
+
+       
+
+        <div class="buttons">
+            <div >
+                <img src="hima.jpg" height="100px" width="100%" style="height: 150px;">
+            </div>    
+            <h1 class="bton active login-btn">login</h1>
+            <h1 class="bton register-btn">register</h1> 
+        </div>
+       <!-- Form Login -->
+       <form class="login-form active" id="loginForm" onsubmit="handleLogin(event)">
+        <h3>Login Now</h3>
+        <input type="email" id="login-email" placeholder="Masukkan email anda" class="box" style="color: black;">
+        <input type="password" id="login-nim" placeholder="Masukkan NIM anda" class="box" style="color: black;">
+        <button type="submit" class="bton">Login Now</button>
+    </form>
+    
+    <!-- Form Register -->
+    <form class="register-form" id="registerForm" onsubmit="handleRegister(event)">
+        <h3>Register Now</h3>
+        <input type="text" id="register-nama" placeholder="Masukkan nama anda" class="box" style="color: black;">
+        <input type="email" id="register-email" placeholder="Masukkan email anda" class="box" style="color: black;">
+        <input type="password" id="register-nim" placeholder="Masukkan NIM anda" class="box" style="color: black;">
+        <button type="submit" class="bton">Register Now</button>
+    </form>
+
+        
+
+
+    </div>
+<!-- about section -------------------------------------------------------------------->
+<section id="about" class="about">
+    <div class="img-about">
+        <div class="about-gallery"> 
+        <div class="port-box">
+            <div class="port-image">
+                <img src="about (2).png" alt="">
+            </div>
+            <div class="port-content">
+                <h3>HIMABIDA</h3>
+                <p>
+                    "Himpunan Mahasiswa Bisnis Digital" 
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+        <div class="port-box">
+            <div class="port-image">
+                <img src="hima1.jpg" alt="">
+            </div>
+            <div class="port-content">
+                <h3>HIMABIDA</h3>
+                <p>
+                    "Himpunan Mahasiswa Bisnis Digital" 
+                </p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="about-content">
+        <span>The history of HIMABIDA</span>
+        <h2>Himpunan Mahasiswa Bisnis Digital</h2>
+            <h3>About Us</h3>
+            <p class="text-justify"> Himpunan Mahasiswa Bisnis Digital (HIMABIDA) dibentuk sebagai wadah bagi mahasiswa program studi Bisnis Digital untuk mengembangkan keterampilan akademik, profesional, dan sosial. Seiring dengan berkembangnya ekonomi digital dan transformasi bisnis berbasis teknologi, kebutuhan akan komunitas yang mendukung mahasiswa dalam memahami tren industri, inovasi digital, dan strategi bisnis semakin meningkat. Oleh karena itu, HIMABIDA hadir untuk memberikan ruang bagi mahasiswa dalam berkolaborasi, berbagi pengetahuan, serta mengembangkan ide-ide kreatif yang relevan dengan dunia bisnis digital.<p>
+            <p class="text-justify"> Sejak didirikan, HIMABIDA telah aktif dalam menyelenggarakan berbagai kegiatan seperti seminar, makrab, pelatihan kepemimpinan, dan kompetisi. Selain itu, himpunan ini juga menjalin kerja sama dengan perusahaan teknologi dan startup untuk memberikan wawasan langsung kepada mahasiswa tentang dunia industri. Program mentoring dan networking yang disediakan oleh HIMABIDA bertujuan untuk membangun keterampilan praktis serta membekali mahasiswa dengan pengetahuan yang dapat diterapkan di dunia kerja.</p>
+        <div class="btn-box">
+            <a href="#" class="btnbox">Baca Selengkapnya!</a>
+        </div>
+    </div>
+</section>
+
+<!-- structure section ------------------------- ------------------------------------------>
+<section id="structure" class="structure">
+        <div class="structure-content" style="text-align: center;" height="500px">
+            <h3>STRUCTURE</h3>
+            <span>
+                "Himpunan Mahasiswa Bisnis Digital"
+            </span>
+           
+        </div>
+    </div>
+    <div class="tree">
+        <ul>
+            <li><a href="#"> <img src="ketua.jpg" alt=""><P>RIANA SANDI</P><span>Ketua</span> </a> 
+                <ul>
+                    <li><a href="#"> <img src="wakil.jpg" alt=""><P>CUT FARRAH</P><span>Wakil Ketua</span> </a> 
+                        <ul>
+                            <li><a href="#"> <img src="Sekretaris 1.jpg" alt=""><P> LATIFA WAHYU</P><span>Sekretaris 1</span> </a> 
+                                <ul>
+                                    <li><a href="#"> <img src="EKOBIS.jpg" alt=""><P>M.AZHARI ATTAMIMI</P><span>Ketua Divisi Ekobis</span> </a> </li>
+                                 </ul>
+                            </li>
+                            <li><a href="#"> <img src="Sekretaris 2.jpg" alt=""><P>CINTYA BELLA</P><span>Sekretaris 2</span> </a> 
+                                <ul>
+                                    <li><a href="#"> <img src="SOSDIS.jpg" alt=""><P>MOH.RIDHO NAJAFI</P><span>Ketua Divisi Sosdis</span> </a> </li>
+                                </ul>
+                            </li>
+                            <li><a href="#"> <img src="Bendahara1.jpg" alt=""><P>NADILLA NURAZIZAH</P><span>Bendahara 1</span> </a> 
+                                <ul>
+                                    <li><a href="#"> <img src="HUMAS.jpg" alt=""><P>FERLIN</P><span>Ketua Divisi Humas</span> </a> </li>
+                                </ul>
+                            </li>
+                            <li><a href="#"> <img src="Bendahara2.jpg" alt=""><P>VIVIAN TESHALONIKA</P><span>Bendahara 2</span> </a>  
+                                <ul>
+                                    <li><a href="#"> <img src="MEDFOKOMS.jpg" alt=""><P>ALYA SAUSAN ZAHRA</P><span>Ketua Divisi Medfokom</span> </a> </li>
+                                </ul>
+                            </li>
+                           
+                        </ul>
+                        
+                    </li>
+                </ul>
+             </li>
+        </ul>
+    </div>
+    <div class="btn-box" style="justify-content: center; width: 100%;">
+        <a href="team.html" class="btnbox" >Check Full Team!</a>
+    </div>
+
+</section>
+<!-- voting section ------------------------- ------------------------------------------>
+<!-- events section -->
+<section id="events" class="events" style="background: #023929; padding: 70px 5%;">
+    <div class="events-content">
+        <h1 style="font-size: 28px;">Event Himabida</h1>
+        <div class="change-text" style="font-size: 19px; margin-top: 15px;">
+            <h3>Ikuti kegiatan</h3>
+            <h3>
+                <span class="word"> yang&nbsp;inspiratif </span>
+                <span class="word"> yang&nbsp;bermanfaat </span>
+                <span class="word"> yang&nbsp;seru </span>
+            </h3>
+        </div>
+        <p class="text-justify" style="padding-top:1px;">Temukan berbagai event menarik dari HIMABIDA mulai dari seminar, makrab, hingga kegiatan sosial. Yuk, ikut berpartisipasi dan jadikan pengalaman organisasimu lebih seru dan penuh makna!</p>
+
+        <section class="features" style="padding: 10px 5%;">
+            <div class="feature-box">
+                <i class="bx bx-dumbbell"></i>
+                <h3>Keringetan Bareng Bisnis Digital</h3>
+                <p>Gabung olahraga bareng sambil bangun semangat dan koneksi sesama mahasiswa Bisnis Digital!</p>
+            </div>
+            <div class="feature-box">
+                <i class="bx bx-microphone"></i>
+                <h3>Seminar Branding</h3>
+                <p>Pelajari cara membangun citra diri yang kuat dan profesional di era digital dari para ahli branding.</p>
+            </div>
+            <div class="feature-box">
+                <i class="bx bx-group"></i>
+                <h3>Makrab Himabida</h3>
+                <p>Malam keakraban penuh cerita, tawa, dan kebersamaan yang mempererat seluruh keluarga HIMABIDA.</p>
+            </div>
+            
+        </section>
+
+        <div class="btn-box" style="justify-content: center; width: 100%;">
+            <a href="#" class="btnbox">Lihat Semua Event</a>
+        </div>
+    </div>  
+    <div class="home-img">
+        <div class="img-box">
+            <img src="voting.png" alt="events-himabida">
+        </div>    
+    </div>
+</section>
+
+
+<!-- Contact section ------------------------------------------------------------------->
+ 
+<section id="contact" class="contant">
+    <div class="main-text" style="text-align: center;" height="500px">
+        <span style="font-size: 30px; font-weight: bold; ">Hubungi Kami</span>
+        <h2 style="font-size: 15px ; font-weight: bold;">Kirim Pesan Sekarang</h2>
+    
+    <form method="post" name="wpu-contact-form" action=""class="scroll-top">
+        
+        <input type="text" placeholder="Nama" name="nama">
+        <input type="text" placeholder="Nomor Hp" name="number" id="number">
+        <input type="email" placeholder="Email" name="email" id="email">
+        <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Pesan Anda" name="pesan"></textarea>
+        <div class="btn-box formBtn"> 
+            <button type="submit" onclick="sendMessage(event)" action="https://script.google.com/macros/s/AKfycbwICW7CVt6Uc9RXhobYfdwmrfg15lGI1g2HPicViIfHhbormwor5fjDPgPlO5fGMXKA/exec" class="btn btn-primary d-none btn-kirim" >Kirim Pesan</button>
+
+        </div>
+            
+        
+    </form>
+</div>
+    <div class="map-container">
+        <div class="mapBg" style="text-align: center;" height="500px"> </div>
+            <div class="map"> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.5351963636826!2d107.16658007355592!3d-6.324611661884165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699b0c08ad8d01%3A0x2b18001d1b1371f9!2sUNIVERSITAS%20PELITA%20BANGSA!5e0!3m2!1sid!2sid!4v1742002149578!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        
+        
+    </div>
+</section>
+
+
+<!-- footer website -->
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="hima2.png"   style="height: 150px; width: 150px; margin-left: 50px;
+            margin-top: 19px;" class="hima" >
+        
+        </div>
+        <div class="col">
+            <h3>Office <div class="underline"><span></span></div></h3>
+            <p>Jl. Inspeksi Kalimalang</p>
+            <p>Tegal Danas Arah Deltamas</p>
+            <p>Cibatu, Kec. Cikarang Pusat, Bekasi </p>
+            <p>Jawa Barat 17530</p>
+            <p class="email-id">Himabidanew@gmail.com</p>
+        </div>
+
+        
+        <div class="col">
+            <h3>Links<div class="underline"><span></span></div></h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#structure">Structure</a></li>
+                <li><a href="#voting">Voting</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+ 
+        </div>
+
+        <div class="col">
+           
+            <h3>Newsletter <div class="underline"><span></span></div></h3>
+            <form onsubmit="showAlert(event)" style=" padding-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ccc;
+            margin-bottom: 50px;">
+                <i class='bx bx-envelope'></i>
+                <input type="email" placeholder="Masukan email anda" required>
+                <button type="submit" ><i class='bx bx-right-arrow-alt'></i></i></button>
+            </form>
+            <div class="social-icons" style="margin-top: 1rem;">
+                <a href="https://www.instagram.com/himabisnisdigital_upb?igsh=OXZ3MHpvdno1eXpp"><i class='bx bxl-instagram'></i></a>
+                <a href="https://m.youtube.com/@bisnisdigitalupbofficial"><i class='bx bxl-youtube'></i></a>
+                <a href="#"><i class='bx bxl-gmail' ></i></a>
+                <a href="https://www.tiktok.com/@himabidaupb?_t="><i class='bx bxl-tiktok' ></i></a>
+            </div>  
+            
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright &copy; 2025 by Himpunan Mahasiswa Bisnis Digital || All Right Reserved.</p>
+ </footer>
+ <script src="script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+ <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script>
+ // Menampilkan & Menyembunyikan Form Login/Register
+ document.querySelector(".login-btn").addEventListener("click", function() {
+     document.querySelector(".login-form").classList.add("active");
+     document.querySelector(".register-form").classList.remove("active");
+ });
+ 
+ document.querySelector(".register-btn").addEventListener("click", function() {
+     document.querySelector(".register-form").classList.add("active");
+     document.querySelector(".login-form").classList.remove("active");
+ });
+ 
+ document.addEventListener("DOMContentLoaded", function () {
+    let user = localStorage.getItem("loggedInUser");
+    let userIcon = document.getElementById("user-icon");
+    let profileMenu = document.getElementById("profile-menu");
+
+    if (user) {
+        user = JSON.parse(user);
+        document.getElementById("profile-name").innerText = user.nama;
+        userIcon.src = "profile.png"; // Ubah icon ke foto profile
+        userIcon.addEventListener("click", function () {
+            profileMenu.classList.toggle("active");
+        });
+    } else {
+        userIcon.addEventListener("click", function () {
+            document.querySelector(".account-form").classList.add("active");
+        });
+    }
+
+    document.getElementById("close-form").addEventListener("click", function () {
+        document.querySelector(".account-form").classList.remove("active");
+    });
+
+    document.getElementById("logout").addEventListener("click", function () {
+        localStorage.removeItem("loggedInUser");
+        location.reload();
+    });
+});
+
+ if (!localStorage.getItem("users")) {
+     localStorage.setItem("users", JSON.stringify([]));
+ }
+ 
+ // Fungsi Register
+ function handleRegister(event) {
+     event.preventDefault();
+ 
+     let nama = document.getElementById("register-nama").value.trim();
+     let email = document.getElementById("register-email").value.trim();
+     let nim = document.getElementById("register-nim").value.trim();
+ 
+     if (!nama || !email || !nim) {
+         alert("Semua kolom harus diisi!");
+         return;
+     }
+ 
+     let users = JSON.parse(localStorage.getItem("users"));
+ 
+     if (users.some(user => user.email === email)) {
+         alert("Email sudah terdaftar!");
+         return;
+     }
+ 
+     users.push({ nama, email, nim });
+     localStorage.setItem("users", JSON.stringify(users));
+ 
+     alert("Registrasi berhasil! Silakan login.");
+     document.getElementById("registerForm").reset();
+     document.querySelector(".login-form").classList.add("active");
+     document.querySelector(".register-form").classList.remove("active");
+ }
+ 
+ // Fungsi Login
+ function handleLogin(event) {
+     event.preventDefault();
+ 
+     let emailInput = document.getElementById("login-email").value.trim();
+     let nimInput = document.getElementById("login-nim").value.trim();
+ 
+     let users = JSON.parse(localStorage.getItem("users"));
+ 
+     let user = users.find(u => u.email === emailInput && u.nim === nimInput);
+ 
+     if (user) {
+         localStorage.setItem("loggedInUser", JSON.stringify(user));
+         alert("Login berhasil! Selamat datang, " + user.nama);
+         window.location.href = "index.html"; // Redirect ke dashboard
+     } else {
+         alert("Login gagal! Periksa kembali email dan NIM Anda.");
+     }
+ }
+</script> 
+
+
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyM26AxkD1h_OLtQ-Vk44ByWuuFT9zpJojL2vBIBk-MFiudJMhYnOK3WTVr-__r-R7RBg/exec';
+        const form = document.forms['wpu-contact-form']
+
+
+        function sendMessage(event) {
+      event.preventDefault(); // Mencegah refresh halaman
+
+      // Ambil nilai input
+      let number = document.getElementById("number").value.trim();
+      let email = document.getElementById("email").value.trim();
+
+      // Cek apakah nomor HP atau email kosong
+      if (number === "" || email === "") {
+          swal({
+              title: "Gagal!",
+              text: "Nomor HP dan Email harus diisi.",
+              icon: "error",
+          });
+          return; // Hentikan proses jika ada input yang kosong
+      }
+
+      // Jika semua input terisi, lanjutkan pengiriman data
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then(response => {
+              swal({
+                  title: "Berhasil!",
+                  text: "Pesan Anda telah dikirim.",
+                  icon: "success",
+              }).then(() => {
+                  form.reset(); // Reset form setelah alert ditutup
+              });
+          })
+          .catch(error => {
+              swal({
+                  title: "Gagal!",
+                  text: "Terjadi kesalahan saat mengirim pesan.",
+                  icon: "error",
+              });
+          });
+  }
+
+    
+
+       
+      </script>
+
+      <script>
+  function showAlert(event) {
+    event.preventDefault(); // Mencegah form melakukan submit (refresh halaman)
+
+    swal({
+      title: "Successfully",
+      text: "Terimakasih sudah mengaktifkan newsletter kami!",
+      icon: "success",
+    });
+  }
+</script>
+</body>
+</html>
